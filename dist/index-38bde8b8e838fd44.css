@@ -1,0 +1,86 @@
+body {
+  background: bisque;
+}
+
+.scale-part {
+  background: white;
+  width: fit-content;
+  margin: 20vh auto;
+  padding: 24px 36px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.scale-part img {
+  width: 100%;
+  border-radius: 8px;
+}
+.scale-part * {
+  margin: 8px auto;
+}
+.scale-part h1 {
+  margin-top: 0;
+}
+.scale-part p {
+  text-align: center;
+}
+.scale-part #tab {
+  border-radius: 8px;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.scale-part #tab img {
+  border-radius: 6px;
+  height: 120px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.scale-part #tab label {
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 auto;
+}
+.settings .item {
+  padding: 6px 12px;
+  border-radius: 4px;
+  background: white;
+  margin: 6px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+}
+.settings .item label {
+  font-size: 14px;
+  height: fit-content;
+  margin-right: 24px;
+}
+.settings .item input {
+  background: bisque;
+  border: darkgray solid 1px;
+  border-radius: 4px;
+  padding: 4px 6px;
+  width: 72px;
+}
+
+#scale-progress-bar {
+  width: 100%;
+  margin: 0;
+}
+
+#tab-progress-bar {
+  margin: 0 auto;
+}
